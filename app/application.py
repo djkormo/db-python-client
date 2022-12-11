@@ -70,6 +70,7 @@ for a in range(LOOP_COUNT):
 
 exit (0) 
 
+
 # Create a table
 
 cursor.execute("""
