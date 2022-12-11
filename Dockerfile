@@ -1,4 +1,4 @@
-ARG ALPINE_VERSION=3.16
+ARG ALPINE_VERSION=3.17
 FROM python:3.7-alpine${ALPINE_VERSION}
 
 RUN apk --no-cache add  gcc musl-dev curl bash
